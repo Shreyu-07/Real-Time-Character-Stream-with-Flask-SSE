@@ -21,7 +21,7 @@ This project demonstrates how to stream characters one-by-one from a Flask backe
 
 ## 📸 Preview
 
-![preview](https://github.com/your-username/your-repo-name/assets/demo-gif.gif)  
+![preview](![op2](https://github.com/user-attachments/assets/469dceb0-964f-4b3b-84e6-195b7f13e1c3))  
 <sup>(Replace this with a real GIF or screenshot)</sup>
 
 ---
@@ -48,7 +48,7 @@ Edit
 
 ### 1. Clone the repo
 bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Shreyu-07/Real-Time-Character-Stream-with-Flask-SSE.git
 cd your-repo-name
 2. Create a virtual environment
 
