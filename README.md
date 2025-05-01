@@ -22,7 +22,6 @@ This project demonstrates how to stream characters one-by-one from a Flask backe
 ## 📸 Preview
 
 ![op2](https://github.com/user-attachments/assets/469dceb0-964f-4b3b-84e6-195b7f13e1c3)  
-<sup>(Replace this with a real GIF or screenshot)</sup>
 
 ---
 
