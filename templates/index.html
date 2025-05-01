@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Looping Word Stream</title>
+    <style>
+        body {
+            background-image: url('https://thumbs.dreamstime.com/b/sky-tree-images-photographed-wide-angle-lens-black-white-nature-photo-effective-powerful-photograph-its-preference-363281705.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        #output {
+            font-size: 2em;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Streaming Word in Loop:</h1>
+    <div id="output"></div>
+
+    <script>
+        const output = document.getElementById('output');
+        const eventSource = new EventSource('/stream');
+
+        eventSource.onmessage = function(e) {
+            if (e.data === "__CLEAR__") {
+                output.innerHTML = "";
+            } else {
+                output.innerHTML += e.data;
+            }
+        };
+    </script>
+</body>
+</html>
